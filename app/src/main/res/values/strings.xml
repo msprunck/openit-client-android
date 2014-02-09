@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenIt</string>
+    <string name="button_voice_recognition">Listen</string>
+    <string name="action_voice_recognition">Voice recognition</string>
+    <string name="get_ok">Operation OK</string>
+    <string name="get_ko">Operation KO</string>
+
+    <!-- Strings related to login -->
+    <string name="title_login">Login</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="connect_failed">Unable to connect. Check that the user exists in the backend.</string>
+
+    <!-- PlusClientFragment -->
+    <string name="progress_message">Signing in to Google&#8230;</string>
+
+</resources>
