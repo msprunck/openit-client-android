@@ -152,6 +152,7 @@ public class VolleyOpenItApi implements OpenItApi {
                     error.onError(new ApiError(volleyError));
                 }
             });
+            getRequestQueue().getCache().clear();
             addToRequestQueue(req);
             return new DefaultApiRequest(req);
         } catch (JSONException e) {
